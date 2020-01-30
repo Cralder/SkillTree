@@ -13,7 +13,7 @@ namespace SkillTree.Items
 
 		public override void SetDefaults() 
 		{
-			item.damage = 50;
+			item.damage = 500;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
