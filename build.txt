@@ -1,0 +1,3 @@
+displayName = Skill Trees
+author = Cralder
+version = 0.1
