@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albin\\OneDrive\\Dokument\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj": {}
+    "C:\\Users\\jespe\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albin\\OneDrive\\Dokument\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj": {
+    "C:\\Users\\jespe\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albin\\OneDrive\\Dokument\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj",
+        "projectUniqueName": "C:\\Users\\jespe\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj",
         "projectName": "SkillTree",
-        "projectPath": "C:\\Users\\albin\\OneDrive\\Dokument\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj",
-        "packagesPath": "C:\\Users\\albin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albin\\OneDrive\\Dokument\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\obj\\",
+        "projectPath": "C:\\Users\\jespe\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\SkillTree.csproj",
+        "packagesPath": "C:\\Users\\jespe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jespe\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SkillTree\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\albin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jespe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net45"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +36,9 @@
         }
       },
       "frameworks": {
-        "net45": {}
+        "net45": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
       }
     }
   }
