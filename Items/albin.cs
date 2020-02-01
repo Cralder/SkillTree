@@ -25,6 +25,10 @@ namespace SkillTree.Items
             item.rare = 2;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
+            item.shoot = mod.ProjectileType("Phoenix");
+            item.shootSpeed = 8;
+            
+
         }
 
         public override void AddRecipes()
