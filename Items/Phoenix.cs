@@ -5,7 +5,7 @@ namespace SkillTree.Items
 {
     public class Phoenix : ModProjectile
     {
-        public override void SetStaticDefaults()
+        public override void SetDefaults()
         {
             projectile.Name = "Phoenix";
             projectile.width = 64;
@@ -18,15 +18,16 @@ namespace SkillTree.Items
             projectile.ignoreWater = false;
             projectile.melee = true;
             projectile.aiStyle = 0;
+            projectile.damage = 30;
+            aiType = ProjectileID.DD2PhoenixBowShot;
 
 
+        }
+        public override void AI()
+        {
+           projectile.type = 706;
 
-
-
-
-
-
-
+            
         }
     }
 }
